@@ -41,7 +41,7 @@ export default function BottomNav() {
   return (
     <View style={styles.navBar}>
       <NavItem
-        icon={require('../assets/home-2.png')}
+        icon={require('../assets/shop.png')}
         label="ร้านรับซื้อ"
         active={activeIndex === 0}
         onPress={() => handleNavItemPress('/shop')}
@@ -59,7 +59,7 @@ export default function BottomNav() {
         icon={require('../assets/Clipboard.png')}
         label="ติดตาม"
         active={activeIndex === 3}
-        onPress={() => handleNavItemPress('/AppealStatusScreen')}
+        onPress={() => handleNavItemPress('/point')}
       />
       <NavItem
         icon={require('../assets/Google forms.png')}
